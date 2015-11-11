@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="container">
+<h2><strong>{{ page.title }}</strong></h2>
+<div id="blog-breadcrumbs">
+	<ol class="breadcrumb">
+<li><a href="{{ site.baseurl }}/">Home</a></li>
+{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+{% for i in (1..forLoopMaxInt) %}
+    {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+    {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+    {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+    {% for breadcrumb_page in site.pages %}
+        {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
+            <li {% if i == forLoopMaxInt %}class="active"{% endif %}>
+                {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+                <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumb}}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ol>
+</div><!-- End Blog Bread Crumbs -->
+
+<div class="col-md-7" id="blog-list">
+ {% for post in site.categories.[page.category] %}
+<section class="blog-post wow animated bounceInUp">
+<h3 class="blog-header"><a href="{{site.url}}{{post.url}}">
+	{{ post.title}}
+          </a></h3><!-- Enf Blog Header -->
+
+	{% if post.image %}
+	<div class="blog-thumb"><a href="{{site.url}}{{post.url}}"><img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" ></a></div><!-- End Blog Thumb -->
+	{% else %}
+		<div class="blog-thumb"><a href="{{site.url}}{{post.url}}"><img src="{{ site.url }}/img/Logo-V-Blue.png" alt="VersaTech Marketing Blog" style="margin-left:-60px;"></a></div><!-- End Blog Thumb -->
+	{% endif %}
+
+        <div class="blog-content">{{ post.excerpt }}</div><!-- End Blog Content -->
+</section><!-- End Blog Post -->
+	{% endfor %}
+               
+</div><!-- End Blog List -->
+	{% include sidebar.html %}
+<div class="clear"></div>
+
+
+
+  </div><!-- End Wrapper -->

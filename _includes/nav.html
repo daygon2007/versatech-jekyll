@@ -1,0 +1,36 @@
+<nav class="navbar" role="navigation">
+  <div class="container-fluid wrapper">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color:#fff;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse nav-style">
+        <ul id="menu-nav-main" class="nav navbar-nav">
+			 {% for link in site.navigation %}
+        {% assign url = page.url|remove:'index.html' %}
+        {% assign hasFirst = link.first-level != undefined %}          
+        <li 
+            {% if hasFirst %} class="dropdown" {% endif%} {% if url == {{site.url}}link.url %} class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {% endif %}>
+            {% if hasFirst %} 
+                <ul class="dropdown-menu">
+                    {% for firstlevel in link.first-level %}  
+                        <li {% if url == firstlevel.url %} class="current" {% endif %} >
+                            {% assign hasSecond = firstlevel.second-level != undefined %}
+                            <a {% if firstlevel.target != undefined %} target="{{firstlevel.target}}" {% endif %} href="{{site.url}}{{ firstlevel.url }}">{{ firstlevel.text }}{% if hasSecond %} <i class='icon-right-dir-2'></i>{% endif %}</a>
+                        </li>
+                    {% endfor %}
+                </ul>                   
+            {% endif %}
+            <a href="{{site.url}}{{link.url}}"  class="{{link.icon}}">{{link.root}} {% if hasFirst %} <i class='icon-down-dir-2'></i>{% endif %}</a>
+        </li>
+      {% endfor %}
+			<li><a href="tel:281-944-8150"><i class="fa fa-phone"></i> 281-944-8150</a></li>
+		</ul>
+	  </div>        
+    </div>
+</nav>
