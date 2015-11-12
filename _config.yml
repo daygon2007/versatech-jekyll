@@ -4,7 +4,7 @@ email: jonathon@versatechmarketing.com
 description: > # this means to ignore newlines until "baseurl:"
   We are a digital marketing firm specializing in working with small businesses. Our focus is to help small businesses get noticed by local consumers through stunning, search engine optimized websites.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000/" # the base hostname & protocol for your site
+url: "http://dev.versatechmarketing/" # the base hostname & protocol for your site
 twitter_username: VersaTechMkting
 github_username:  daygon2007
 
