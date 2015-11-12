@@ -28,13 +28,13 @@ gulp.task('sass', function(){
 
 // Get all files from _js folder, lint through them, minify them, contatinate them into a single file called main.js and send it to the js folder
 gulp.task('js', function(){
-	gulp.src('_js/*.js')
+	gulp.src('js/src/*.js')
 		.pipe(plumber(plumberErrorHandler))
         .pipe(jshint())
         .pipe(jshint.reporter('fail'))
         .pipe(uglify())
         .pipe(concat('main.js'))
-        .pipe(gulp.dest('_site/js'));
+        .pipe(gulp.dest('js'));
 });
 
 // Get all files from _img folder, optimize them and send them to the img folder
@@ -51,7 +51,7 @@ gulp.task('img', function(){
 // Watch for changes in the source folders, tell browsersync to reload the broswer if a saved change is detected
 gulp.task('watch', function() {
     gulp.watch('_sass/*.scss', ['sass']).on('change', browserSync.reload);
-    gulp.watch('_js/*.js', ['js']).on('change', browserSync.reload);
+    gulp.watch('_js/src/*.js', ['js']).on('change', browserSync.reload);
     gulp.watch('_img/*.{png,jpg,gif}', ['img']).on('change', browserSync.reload);
 });
 

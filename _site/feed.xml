@@ -4,10 +4,10 @@
     <title>VersaTech Marketing</title>
     <description>We are a digital marketing firm specializing in working with small businesses. Our focus is to help small businesses get noticed by local consumers through stunning, search engine optimized websites.
 </description>
-    <link>http://dev.versatechmarketing.com/</link>
-    <atom:link href="http://dev.versatechmarketing.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Nov 2015 13:51:16 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2015 13:51:16 -0600</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Nov 2015 12:06:08 -0600</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 12:06:08 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -30,8 +30,8 @@
 
 </description>
         <pubDate>Mon, 19 Oct 2015 08:01:59 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/blog/importance-of-brand.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/blog/importance-of-brand.html</guid>
+        <link>http://localhost:4000//blog/2015/10/19/importance-of-brand/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2015/10/19/importance-of-brand/</guid>
         
         
         <category>blog</category>
@@ -43,8 +43,8 @@
         <description>&lt;p&gt;This site was developed using WordPress CMS Platform using the Bootstrap 3 framework, SCSS/CSS3, HTML5, jQuery, &amp;amp; Owl Carousel. This site is mobile responsive and complies to the base standards of on page search engine optimization practices.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Oct 2015 14:55:28 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/portfolio/cyfair-animal-hostipal.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/portfolio/cyfair-animal-hostipal.html</guid>
+        <link>http://localhost:4000//portfolio/2015/10/16/cyfair-animal-hostipal/</link>
+        <guid isPermaLink="true">http://localhost:4000//portfolio/2015/10/16/cyfair-animal-hostipal/</guid>
         
         
         <category>portfolio</category>
@@ -56,8 +56,8 @@
         <description>&lt;p&gt;This site was built utilizing the Bootstrap framework as well as HTML5, CSS3, jQuery, and some custom javascript. The site is 100% mobile responsive and SEO friendly, and has an intuitive backend that makes updates for the end user simple and easy to understand.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 13:34:04 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/portfolio/bits-bytes-computers-site-redesign.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/portfolio/bits-bytes-computers-site-redesign.html</guid>
+        <link>http://localhost:4000//portfolio/2015/10/12/bits-bytes-computers-site-redesign/</link>
+        <guid isPermaLink="true">http://localhost:4000//portfolio/2015/10/12/bits-bytes-computers-site-redesign/</guid>
         
         
         <category>portfolio</category>
@@ -77,8 +77,8 @@
 &lt;p&gt;Every business owner&#39;s goal is to build a brand. Most get side tracked and focus on running the business instead of getting the same associated with the product or service being offered. Getting the brand name associated with the product or service is paramount not only from an SEO perspective, but from an overall business perspective. Get your brand associated with a product or service and you have a giant piece of the success pie.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Jun 2015 14:02:48 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/blog/the-importance-of-brand-for-seo.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/blog/the-importance-of-brand-for-seo.html</guid>
+        <link>http://localhost:4000//blog/2015/06/26/the-importance-of-brand-for-seo/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2015/06/26/the-importance-of-brand-for-seo/</guid>
         
         
         <category>blog</category>
@@ -97,8 +97,8 @@
 &lt;p&gt;Rand Fishkin is one of my personal idols in the SEO world, and I know innovation has its road block and speed bumps. So I personally do not fault Moz on this error. As a web developer and a person who live his life in a pool of code I know finding a bug in a vast ocean of code can be one of the most challenging parts of being a developer or code engineer. I hope for their sake, they find the issue quick and get it resolved because many SEO companies like us rely on the data their tools output.&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jun 2015 15:34:42 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/blog/mozs-issues-with-mozscape-wreaks-havoc-on-seo.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/blog/mozs-issues-with-mozscape-wreaks-havoc-on-seo.html</guid>
+        <link>http://localhost:4000//blog/2015/06/11/mozs-issues-with-mozscape-wreaks-havoc-on-seo/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2015/06/11/mozs-issues-with-mozscape-wreaks-havoc-on-seo/</guid>
         
         
         <category>blog</category>
@@ -125,8 +125,8 @@
 &lt;p&gt;Responsive web design is the are of building a website for any viewport size and device. Mobile-friendly websites will rank higher in Google mobile search results. 90% of mobile searches end up with a purchase or visit. Choose responsive web design over a mobile web site, it will save you more money and you&#39;re going to have a consistant experience across all browsers and platforms.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Apr 2015 15:01:00 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/blog/the-importance-of-a-responsive-web-design.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/blog/the-importance-of-a-responsive-web-design.html</guid>
+        <link>http://localhost:4000//blog/2015/04/27/the-importance-of-a-responsive-web-design/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2015/04/27/the-importance-of-a-responsive-web-design/</guid>
         
         
         <category>blog</category>
@@ -138,8 +138,8 @@
         <description>&lt;p&gt;Houston mixer repair is a simple one page website with a big call to action. The site currently ranks on the first page for all of it&#39;s keywords. Technologies: HTML5 CSS3 PHP&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Apr 2015 18:12:42 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/portfolio/houston-mixer-repair.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/portfolio/houston-mixer-repair.html</guid>
+        <link>http://localhost:4000//portfolio/2015/04/17/houston-mixer-repair/</link>
+        <guid isPermaLink="true">http://localhost:4000//portfolio/2015/04/17/houston-mixer-repair/</guid>
         
         
         <category>portfolio</category>
@@ -152,8 +152,8 @@
 &lt;p&gt;- Gerri Dorsett, Resolve Today Mediation&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Apr 2015 14:44:10 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/testimonials/testimonial-gerri-dorsett.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/testimonials/testimonial-gerri-dorsett.html</guid>
+        <link>http://localhost:4000//testimonials/2015/04/09/testimonial-gerri-dorsett/</link>
+        <guid isPermaLink="true">http://localhost:4000//testimonials/2015/04/09/testimonial-gerri-dorsett/</guid>
         
         
         <category>testimonials</category>
@@ -166,8 +166,8 @@
 &lt;p&gt;- Tim Lincoln, Granteld Hair Salon&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Apr 2015 14:42:55 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/testimonials/testimonial-tim-lincoln.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/testimonials/testimonial-tim-lincoln.html</guid>
+        <link>http://localhost:4000//testimonials/2015/04/09/testimonial-tim-lincoln/</link>
+        <guid isPermaLink="true">http://localhost:4000//testimonials/2015/04/09/testimonial-tim-lincoln/</guid>
         
         
         <category>testimonials</category>
@@ -180,8 +180,8 @@
 &lt;p&gt;&lt;a href=&quot;http://juanajdenson-author.com/&quot; target=&quot;_blank&quot;&gt;Juana J. Denson&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Apr 2015 14:40:45 -0500</pubDate>
-        <link>http://dev.versatechmarketing.com/testimonials/testimonial-juana-j-denson.html</link>
-        <guid isPermaLink="true">http://dev.versatechmarketing.com/testimonials/testimonial-juana-j-denson.html</guid>
+        <link>http://localhost:4000//testimonials/2015/04/09/testimonial-juana-j-denson/</link>
+        <guid isPermaLink="true">http://localhost:4000//testimonials/2015/04/09/testimonial-juana-j-denson/</guid>
         
         
         <category>testimonials</category>
