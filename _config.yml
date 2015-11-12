@@ -26,20 +26,20 @@ navigation:
   url: portfolio/
 
 - root: Solutions
-  url: solutions/
+  url: solutions/digital-marketing-solutions/
   first-level:
     - text: Web Design
       url: solutions/web-design/
     - text: SEO Solutions
-      url: solutions/seo/
-    - text: SEO Solutions
-      url: solutions/seo/
+      url: solutions/seo-services/
+    - text: SEO Consulting
+      url: solutions/seo-consulting/
     - text: Maintenance & Support
-      url: solutions/maintenance-support/
+      url: solutions/website-maintenance-support/
     - text: Hosting
-      url: solutions/hosting/
+      url: solutions/web-hosting/
     - text: Photography
-      url: solutions/photography/
+      url: solutions/photography-services/
 
 - root: Blog
   url: blog/
